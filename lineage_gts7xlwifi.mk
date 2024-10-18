@@ -21,13 +21,11 @@ PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T970
 PRODUCT_CHARACTERISTICS := tablet
 
-PRODUCT_SYSTEM_NAME := gts7xlwifixx
-
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="gts7xlwifixx-user 11 RP1A.200720.012 T970XXS7DXH1 release-keys" \
-    TARGET_PRODUCT=gts7xlwifixx
-
-BUILD_FINGERPRINT := "samsung/gts7xlwifixx/gts7xlwifi:11/RP1A.200720.012/T970XXS7DXH1:user/release-keys"
+    BuildDesc="gts7xlwifixx-user 11 RP1A.200720.012 T970XXS7DXH1 release-keys" \
+    BuildFingerprint=samsung/gts7xlwifixx/gts7xlwifi:11/RP1A.200720.012/T970XXS7DXH1:user/release-keys \
+    DeviceProduct=gts7xlwifixx \
+    SystemName=gts7xlwifixx
