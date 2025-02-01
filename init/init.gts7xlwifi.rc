@@ -188,7 +188,7 @@ on init
 
 on boot
     # SSWAP
-    write /proc/sys/vm/swappiness 130
+    write /proc/sys/vm/swappiness 160
 
     # SDHMS Slowdown : Cpuset
     mkdir /dev/cpuset/abnormal
