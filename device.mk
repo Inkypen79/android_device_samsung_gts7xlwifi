@@ -24,7 +24,7 @@ WITH_GMS_COMMS_SUITE := false
 
 # Init files
 PRODUCT_PACKAGES += \
-    init.gts7lwifi.rc
+    init.gts7xlwifi.rc
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
@@ -39,4 +39,4 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit from vendor blobs
-$(call inherit-product-if-exists, vendor/samsung/gts7lwifi/gts7lwifi-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/gts7xlwifi/gts7xlwifi-vendor.mk)

@@ -1,5 +1,5 @@
 #
-# SPDX-FileCopyrightText: 2024 The LineageOS Project
+# SPDX-FileCopyrightText: 2024-2025 The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -8,26 +8,26 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 TARGET_SUPPORTS_OMX_SERVICE := false
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
-# Inherit from gts7lwifi device
-$(call inherit-product, device/samsung/gts7lwifi/device.mk)
+# Inherit from gts7xlwifi device
+$(call inherit-product, device/samsung/gts7xlwifi/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 
-PRODUCT_NAME := lineage_gts7lwifi
-PRODUCT_DEVICE := gts7lwifi
+PRODUCT_NAME := lineage_gts7xlwifi
+PRODUCT_DEVICE := gts7xlwifi
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-T870
+PRODUCT_MODEL := SM-T970
 PRODUCT_CHARACTERISTICS := tablet
 
-PRODUCT_SYSTEM_NAME := gts7lwifixx
+PRODUCT_SYSTEM_NAME := gts7xlwifixx
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="gts7lwifixx-user 11 RP1A.200720.012 T870XXS8DXH1 release-keys" \
-    TARGET_PRODUCT=gts7lwifixx
+    PRIVATE_BUILD_DESC="gts7xlwifixx-user 11 RP1A.200720.012 T970XXS7DXH1 release-keys" \
+    TARGET_PRODUCT=gts7xlwifixx
 
-BUILD_FINGERPRINT := "samsung/gts7lwifixx/gts7lwifi:11/RP1A.200720.012/T870XXS8DXH1:user/release-keys"
+BUILD_FINGERPRINT := "samsung/gts7xlwifixx/gts7xlwifi:11/RP1A.200720.012/T970XXS7DXH1:user/release-keys"
