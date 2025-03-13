@@ -25,6 +25,10 @@ TARGET_SCREEN_WIDTH := 2800
 # GMS
 WITH_GMS_COMMS_SUITE := false
 
+# Display
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.surface_flinger.primary_display_orientation=ORIENTATION_270
+
 # Init files
 PRODUCT_PACKAGES += \
     init.gts7xlwifi.rc
