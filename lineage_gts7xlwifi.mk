@@ -25,7 +25,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="gts7xlwifixx-user 11 RP1A.200720.012 T970XXS7DXH1 release-keys" \
+    BuildDesc="gts7xlwifixx-user 13 TP1A.220624.014 T970XXS7DXH1 release-keys" \
     BuildFingerprint=samsung/gts7xlwifixx/gts7xlwifi:11/RP1A.200720.012/T970XXS7DXH1:user/release-keys \
     DeviceProduct=gts7xlwifixx \
     SystemName=gts7xlwifixx
