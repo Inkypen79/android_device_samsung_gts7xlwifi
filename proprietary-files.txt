@@ -103,6 +103,9 @@ vendor/firmware/CAMERA_ICP.elf
 vendor/etc/qdcm_calib_data_ss_dsi_panel_S6TUUM2_AMSA24VU01_WQXGA.xml
 vendor/etc/qdcm_calib_data_ss_dsi_panel_S6TUUM3_AMSA24VU01_WQXGA.xml
 
+# Feature
+vendor/etc/floating_feature.xml
+
 # Fingerprint
 vendor/lib64/libbauthserver.so
 vendor/lib64/libbauthtzcommon.so
